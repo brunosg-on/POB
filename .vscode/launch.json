@@ -1,0 +1,133 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AreaDoCirculo",
+            "request": "launch",
+            "mainClass": "AreaDoCirculo",
+            "projectName": "3POB_4e2b29f2"
+        },
+        {
+            "type": "java",
+            "name": "CalculadoraSimples",
+            "request": "launch",
+            "mainClass": "CalculadoraSimples",
+            "projectName": "3POB_4e2b29f2"
+        },
+        {
+            "type": "java",
+            "name": "CalculadoraSimplesComSwitch",
+            "request": "launch",
+            "mainClass": "CalculadoraSimplesComSwitch",
+            "projectName": "3POB_4e2b29f2"
+        },
+        {
+            "type": "java",
+            "name": "CalculoDoSalário",
+            "request": "launch",
+            "mainClass": "CalculoDoSalário",
+            "projectName": "3POB_4e2b29f2"
+        },
+        {
+            "type": "java",
+            "name": "ClassificaçãodeIdade",
+            "request": "launch",
+            "mainClass": "ClassificaçãodeIdade",
+            "projectName": "3POB_4e2b29f2"
+        },
+        {
+            "type": "java",
+            "name": "ConversaoDeIdadeParaDias",
+            "request": "launch",
+            "mainClass": "ConversaoDeIdadeParaDias",
+            "projectName": "3POB_4e2b29f2"
+        },
+        {
+            "type": "java",
+            "name": "ConversaoDeNotasParaConceito",
+            "request": "launch",
+            "mainClass": "ConversaoDeNotasParaConceito",
+            "projectName": "3POB_4e2b29f2"
+        },
+        {
+            "type": "java",
+            "name": "ConversãoDeMoeda",
+            "request": "launch",
+            "mainClass": "ConversãoDeMoeda",
+            "projectName": "3POB_4e2b29f2"
+        },
+        {
+            "type": "java",
+            "name": "CálculoDoPerímetroEÁreaDeUmRetângulo",
+            "request": "launch",
+            "mainClass": "CálculoDoPerímetroEÁreaDeUmRetângulo",
+            "projectName": "3POB_4e2b29f2"
+        },
+        {
+            "type": "java",
+            "name": "CálculoDoVolumeDeUmaEsfera",
+            "request": "launch",
+            "mainClass": "CálculoDoVolumeDeUmaEsfera",
+            "projectName": "3POB_4e2b29f2"
+        },
+        {
+            "type": "java",
+            "name": "DistânciaEntreDoisPontos",
+            "request": "launch",
+            "mainClass": "DistânciaEntreDoisPontos",
+            "projectName": "3POB_4e2b29f2"
+        },
+        {
+            "type": "java",
+            "name": "ParOuImpar",
+            "request": "launch",
+            "mainClass": "ParOuImpar",
+            "projectName": "3POB_4e2b29f2"
+        },
+        {
+            "type": "java",
+            "name": "SomaDosNPrimeiroNumerosNaturais",
+            "request": "launch",
+            "mainClass": "SomaDosNPrimeiroNumerosNaturais",
+            "projectName": "3POB_4e2b29f2"
+        },
+        {
+            "type": "java",
+            "name": "SomaNumeros",
+            "request": "launch",
+            "mainClass": "SomaNumeros",
+            "projectName": "3POB_4e2b29f2"
+        },
+        {
+            "type": "java",
+            "name": "TabuadaDeUmNumero",
+            "request": "launch",
+            "mainClass": "TabuadaDeUmNumero",
+            "projectName": "3POB_4e2b29f2"
+        },
+        {
+            "type": "java",
+            "name": "media",
+            "request": "launch",
+            "mainClass": "media",
+            "projectName": "3POB_4e2b29f2"
+        },
+        {
+            "type": "java",
+            "name": "tempconv",
+            "request": "launch",
+            "mainClass": "tempconv",
+            "projectName": "3POB_4e2b29f2"
+        }
+    ]
+}
