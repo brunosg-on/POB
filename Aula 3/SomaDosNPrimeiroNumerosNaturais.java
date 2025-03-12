@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class SomaDosNPrimeiroNumerosNaturais
 {
-    public static void main (String[] args)
+    public static void main(String[] args)
     {
         Scanner entrada = new Scanner(System.in);
         System.out.print("Digite um numero: ");
@@ -11,7 +11,7 @@ public class SomaDosNPrimeiroNumerosNaturais
         {
             soma += i;
         }
-        System.out.println (soma);
+        System.out.println(soma);
         entrada.close();
     }
 
