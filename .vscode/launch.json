@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ContagemRegressiva",
+            "request": "launch",
+            "mainClass": "ContagemRegressiva",
+            "projectName": "3POB_4e2b29f2"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
