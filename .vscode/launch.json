@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MaiorEMenorValorEmUmArray",
+            "request": "launch",
+            "mainClass": "MaiorEMenorValorEmUmArray",
+            "projectName": "3POB_4e2b29f2"
+        },
+        {
+            "type": "java",
             "name": "NumerosPrimosEmUmIntervalo",
             "request": "launch",
             "mainClass": "NumerosPrimosEmUmIntervalo",
