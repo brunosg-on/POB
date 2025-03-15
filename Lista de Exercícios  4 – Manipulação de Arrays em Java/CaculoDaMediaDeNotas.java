@@ -8,7 +8,7 @@ public class CaculoDaMediaDeNotas
         double media = 0;
        
 
-        for(i=0;i<4; i++)
+        for(i=0;i<4;i++)
         {
             System.out.println("Digite a nota: "+ (i+1)+ "/" + 4);
             nota[i] = entrada.nextInt();

@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "InversaoDeElementosDeUmArray",
+            "request": "launch",
+            "mainClass": "InversaoDeElementosDeUmArray",
+            "projectName": "3POB_a9f8b87b"
+        },
+        {
+            "type": "java",
+            "name": "CaculoDaMediaDeNotas",
+            "request": "launch",
+            "mainClass": "CaculoDaMediaDeNotas",
+            "projectName": "3POB_a9f8b87b"
+        },
+        {
+            "type": "java",
             "name": "CaculoDaMediaDeNotas",
             "request": "launch",
             "mainClass": "CaculoDaMediaDeNotas",
