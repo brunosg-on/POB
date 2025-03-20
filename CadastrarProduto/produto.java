@@ -30,10 +30,10 @@ public class produto
     {
         this.descricao = descricao;
     }
-    public void listarproduto()
+    public void ListarProduto()
     {
-        System.out.println(codigo);
-        System.out.println(descricao);
-        System.out.println(valor);
+        System.out.println("Codigo "+ codigo);
+        System.out.println("Descriçâo "+ descricao);
+        System.out.println("Valor "+ valor);
     }
 }
