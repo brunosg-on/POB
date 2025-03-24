@@ -1,4 +1,4 @@
-public class IMC
+public class Pessoa
 {
     private String nome;
     private int idade;
@@ -6,7 +6,7 @@ public class IMC
     private double peso;
     private char sexo;
 
-    public IMC(String nome,int idade, double altura, double peso, char sexo)
+    public Pessoa(String nome,int idade, double altura, double peso, char sexo)
     {
         this.nome = nome;
         this.idade = idade;
