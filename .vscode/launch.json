@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AdicionarEExibirNumeros",
+            "request": "launch",
+            "mainClass": "AdicionarEExibirNumeros",
+            "projectName": "POB_bcffa886"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"

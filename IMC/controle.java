@@ -1,4 +1,3 @@
-import IMC.*;
 import java.util.Scanner;
 public class controle 
 {
@@ -25,6 +24,8 @@ public class controle
         pessoa.listarpessoa();
         System.out.println(pessoa.calcularIMC());
         System.out.println(pessoa.classificarIMC());
+        entrada.close();
+    }
 
     }
-}
+   
