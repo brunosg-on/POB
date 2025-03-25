@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BuscaElementoArray",
+            "request": "launch",
+            "mainClass": "BuscaElementoArray",
+            "projectName": "POB_bcffa886"
+        },
+        {
+            "type": "java",
             "name": "NumerosParesEmUmArray",
             "request": "launch",
             "mainClass": "NumerosParesEmUmArray",
