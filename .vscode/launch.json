@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RemoverUmElementoDaLista",
+            "request": "launch",
+            "mainClass": "RemoverUmElementoDaLista",
+            "projectName": "POB_bcffa886"
+        },
+        {
+            "type": "java",
             "name": "AdicionarEExibirNumeros",
             "request": "launch",
             "mainClass": "AdicionarEExibirNumeros",
