@@ -1,3 +1,4 @@
+
 public class Pessoa
 {
     private String nome;
@@ -56,11 +57,11 @@ public class Pessoa
     }
     public void listarpessoa()
     {
-        System.out.print("Nome: "+nome);
-        System.out.print("Idade: "+idade);
-        System.out.print("Altura: "+altura);
-        System.out.print("Peso: "+peso);
-        System.out.print("Sexo "+sexo);
+        System.out.println("Nome: "+nome);
+        System.out.println("Idade: "+idade);
+        System.out.println("Altura: "+altura);
+        System.out.println("Peso: "+peso);
+        System.out.println("Sexo: "+sexo);
     }
     public double calcularIMC()
     {
@@ -70,7 +71,7 @@ public class Pessoa
     {
         double imc = calcularIMC();
 
-        if(imc < 18.5)
+        if(imc <= 18.5)
         {
             return "Magreza";
         }
@@ -84,13 +85,13 @@ public class Pessoa
         }
         if(imc<34.9)
         {
-            return "Obsidade grau I";
+            return "Obsidade GrauI";
         }
         if(imc<39.9)
         {
-            return "Obsidade grau II";
+            return "Obsidade GrauII";
         }
-        return "Obsidade III";
+        return "Obsidade GrauIII";
 
     
     }
