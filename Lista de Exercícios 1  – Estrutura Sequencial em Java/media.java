@@ -17,5 +17,6 @@ public class media {
         }
 
         System.out.print("A media é " + media/3 );
+        entrada.close();
     }
 }
