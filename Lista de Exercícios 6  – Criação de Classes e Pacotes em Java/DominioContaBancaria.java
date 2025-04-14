@@ -3,7 +3,7 @@ public class DominioContaBancaria
     private String titular;
     private double saldo;
 
-    public DominioContaBancaria(String titular, double saldo)
+    public DominioContaBancaria(String titular)
     {
         this.titular = titular;
         this.saldo = 0.0;
@@ -46,6 +46,6 @@ public class DominioContaBancaria
     }
     public void exibirSaldo()
     {
-        System.out.println("Saldo Todal de %s: %.2f", titular, saldo);
+        System.out.printf("Saldo Todal de %s: %.2f", titular, saldo);
     }
 }

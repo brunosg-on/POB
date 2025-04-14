@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "GerenciadorConta",
+            "request": "launch",
+            "mainClass": "GerenciadorConta",
+            "projectName": "POB_5e254e1f"
+        },
+        {
+            "type": "java",
             "name": "BuscaElementoArray",
             "request": "launch",
             "mainClass": "BuscaElementoArray",
