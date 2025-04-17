@@ -1,10 +1,10 @@
-public class SalarioBonusDominio
+public class Funcionario
 {
-    public String nome;
-    public double salario;
-    public String categoria;
+    private String nome;
+    private double salario;
+    private  String categoria;
 
-    public SalarioBonusDominio(String nome, double salario, String categoria)
+    public Funcionario(String nome, double salario, String categoria)
     {
         this.nome = nome;
         this.salario = salario;
@@ -18,9 +18,13 @@ public class SalarioBonusDominio
     {
         this.nome = nome;
     }
-    public double setSalario()
+    public double getSalario()
     {
         return salario;
+    }
+    public void setSalario(Double salario)
+    {
+        this.salario = salario;
     }
     public String getcategoria()
     {
