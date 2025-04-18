@@ -23,7 +23,6 @@ public class RemoverUmElementoDaLista
             }
         }
         System.out.println(Anome);
+        sc.close();
     }
-    
-    
 }

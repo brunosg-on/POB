@@ -6,7 +6,7 @@ public class AdicionarEExibirNumeros
     public static void main (String[] args)
     {
         Scanner entrada = new  Scanner(System.in);
-        ArrayList<Integer> n = new ArrayList<Integer>();
+        ArrayList<Integer> n = new ArrayList<>();
 
         System.out.println("Digite um numero ou 0 para sair");
         int digito = entrada.nextInt();
@@ -17,6 +17,7 @@ public class AdicionarEExibirNumeros
             digito = entrada.nextInt();
         }
 
-        System.out.println(n); 
+        System.out.println(n);
+        entrada.close();
     }
 }
