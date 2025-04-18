@@ -1,9 +1,9 @@
-public class DominioContaBancaria 
+public class Conta
 {
     private String titular;
     private double saldo;
 
-    public DominioContaBancaria(String titular)
+    public Conta(String titular)
     {
         this.titular = titular;
         this.saldo = 0.0;

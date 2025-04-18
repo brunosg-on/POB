@@ -6,7 +6,7 @@ public class GerenciadorConta
         Scanner sc = new Scanner(System.in);
         System.out.println("Digite o nome do titular: ");
         String nome = sc.nextLine();
-        DominioContaBancaria conta = new DominioContaBancaria(nome);
+        Conta conta = new Conta(nome);
 
         int op = 0;
         while(op != 4)
@@ -20,17 +20,17 @@ public class GerenciadorConta
 
                     System.out.println("Digite o valor para o deposito:");
                     double valor = sc.nextDouble();
-                    depositar(valor);
+                    conta.depositar(valor);
                     break;
                 }
                 case 2:
                 System.out.println("Digite o valor para o sacar:");
                     double valor = sc.nextDouble();
-                    sacar(valor);
+                    conta.sacar(valor);
                     break;
                 case 3:
                 {
-                    exibirSaldo();
+                    conta.exibirSaldo();
                     break;
                 }
                 default:
@@ -38,8 +38,6 @@ public class GerenciadorConta
                     System.out.println("Opção invalida:");
                 }
             }
-
-
         }
         sc.close();
     }
