@@ -1,7 +1,7 @@
 
 import java.util.ArrayList;
 import java.util.Scanner;
-public class AdicionarEExibirNumeros 
+public class AdicionarNumeros 
 {
     public static void main (String[] args)
     {

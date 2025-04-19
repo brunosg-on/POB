@@ -4,14 +4,20 @@ public class Media
 {
     public static void main(String[] args) 
     {
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
+        int quant = 0, total = 0;
         ArrayList<Double> notaA = new ArrayList<>();
         System.out.println("Digite uma nota:");
-        double nota = sc.nextDouble();
+        double nota = scanner.nextDouble();
         while(nota!=-1)
         {
-            
+            notaA.add(nota);
+            total += nota;
+            quant++;
+            System.out.println("Digite uma nota:");
+            nota = scanner.nextDouble();
         }
-        sc.close();
+        System.out.println(total/quant);
+        scanner.close();
     }
 }

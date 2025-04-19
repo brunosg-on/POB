@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-public class RemoverUmElementoDaLista 
+public class Remove 
 {
     public static void main(String[] args) 
     {
