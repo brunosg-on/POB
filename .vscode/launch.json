@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Remove",
+            "request": "launch",
+            "mainClass": "Remove",
+            "projectName": "POB_5e254e1f"
+        },
+        {
+            "type": "java",
+            "name": "Ocorrencias",
+            "request": "launch",
+            "mainClass": "Ocorrencias",
+            "projectName": "POB_5e254e1f"
+        },
+        {
+            "type": "java",
             "name": "Media",
             "request": "launch",
             "mainClass": "Media",
